@@ -1,11 +1,40 @@
 page-feed {
    h2.Feed_Title{
-       color: green;
+       color: whitesmoke;
        font-weight: bold;
+       background-color: black;
+       
    }
    p.feed_date{
-       color: greenyellow;
+       color: whitesmoke;
+       background-color: black;
 
    }
+   
+    ion-item.item.item-block.item-ios {
+    background-color: black;
+}
+    ion-card.card.card-ios {
+        background-color: black;
+    }
+    span.button-inner {
+        color: whitesmoke;
+    }
+    .scroll-content {
+        background-color: black;
+    }
+    ion-note.note.note-ios {
+        color: white;
+        font-weight: bold
+    }
+    ion-card.card.card-md {
+        background-color: black;
+    }
+    ion-item.item.item-block.item-md {
+        background-color: black;
+    }
+    ion-content.has-refresher > .scroll-content {
+        background-color: black;
+    }
 
 }
